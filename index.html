@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUNAR LOFT — Specialty Coffee & Architectural Kitchen | Hyderabad</title>
+  <meta name="description" content="Lunar Loft Café & Kitchen in Hyderabad. An architectural café experience blending specialty pour-overs, sourdough kitchen, and minimalist design.">
+  
+  <!-- Fonts: Syne & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Minimal Header Navigation -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <a href="#" class="brand-logo">LUNAR LOFT</a>
+      
+      <nav class="desktop-nav">
+        <a href="#space" class="nav-link">SPACE</a>
+        <a href="#menu" class="nav-link">MENU</a>
+        <a href="#craft" class="nav-link">CRAFT</a>
+        <a href="#visit" class="nav-link">VISIT</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn-primary" id="openReserveBtn">RESERVE A TABLE</button>
+        <button class="mobile-toggle" id="mobileNavToggle" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-inner">
+      <nav class="mobile-nav">
+        <a href="#space" class="mobile-nav-link">01 — SPACE</a>
+        <a href="#menu" class="mobile-nav-link">02 — MENU</a>
+        <a href="#craft" class="mobile-nav-link">03 — CRAFT</a>
+        <a href="#visit" class="mobile-nav-link">04 — VISIT & HOURS</a>
+      </nav>
+      <div class="drawer-footer">
+        <button class="btn-primary btn-block" id="mobileReserveBtn">RESERVE A TABLE</button>
+        <p class="drawer-caption">HYDERABAD — JUBILEE HILLS</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION: Massive Clean Typography & Visual Monograph -->
+    <section class="hero-section">
+      <div class="hero-container">
+        <div class="hero-header-block reveal">
+          <div class="hero-meta">
+            <span class="meta-label">EST. 2024</span>
+            <span class="meta-label">HYDERABAD, INDIA</span>
+          </div>
+          <h1 class="hero-title">LUNAR LOFT</h1>
+          <p class="hero-subtitle">ARCHITECTURAL CAFÉ & CULINARY SYSTEM</p>
+        </div>
+
+        <div class="hero-composition reveal">
+          <div class="hero-image-wrapper">
+            <img src="assets/signage.jpg" alt="Lunar Loft interior with black metal wall sign, white plaster wall, and charcoal counter" class="hero-img">
+            <div class="hero-image-caption">
+              <span>01 / ARCHITECTURE</span>
+              <span>RAW PLASTER, BLACK STEEL, CHARCOAL BASALT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 1: THE SPACE (Simple 2-Column Composition) -->
+    <section class="section-space" id="space">
+      <div class="container">
+        <div class="grid-2col space-grid">
+          <div class="col-text reveal">
+            <span class="section-tag">01 — THE PHYSICAL SPACE</span>
+            <h2 class="section-heading">WHERE MATERIALITY MEETS SPECIALTY BREWING.</h2>
+            <p class="body-text">
+              Lunar Loft was conceived as a digital and spatial monologue—a quiet sanctuary from urban acceleration. Built with exposed cold-rolled steel mullions, textured off-white plaster, and a monolithic charcoal basalt counter, every plane serves a singular purpose.
+            </p>
+            <p class="body-text">
+              There are no arbitrary decorations here. The beauty lies in structural discipline, natural morning shadow paths, and the aroma of single-origin espresso.
+            </p>
+            <div class="space-specs">
+              <div class="spec-item">
+                <span class="spec-number">7200 Sq Ft</span>
+                <span class="spec-desc">Open loft architectural footprint</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-number">18 Baristas</span>
+                <span class="spec-desc">Precision pour-over & roasting collective</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-media reveal">
+            <div class="editorial-card">
+              <img src="assets/coffee.jpg" alt="Specialty pour-over coffee carafe on charcoal stone counter" class="editorial-img">
+              <div class="card-caption">
+                <span class="caption-title">PRECISION EXTRACTS</span>
+                <span class="caption-sub">Ethiopian Yirgacheffe • Hario V60</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: CURATED MENU (Single-Stream Editorial Menu) -->
+    <section class="section-menu" id="menu">
+      <div class="container">
+        <div class="menu-header reveal">
+          <div class="menu-header-left">
+            <span class="section-tag">02 — THE SELECTION</span>
+            <h2 class="section-heading">CURATED MENU</h2>
+          </div>
+          <p class="menu-header-desc">
+            Sourced directly from micro-lot estates across Chikmagalur & Yirgacheffe. Paired with slow-fermented artisanal sourdough pastries.
+          </p>
+        </div>
+
+        <!-- Menu Tabs -->
+        <div class="menu-tabs-bar reveal">
+          <button class="menu-tab active" data-tab="coffee">SPECIALTY COFFEE</button>
+          <button class="menu-tab" data-tab="kitchen">ALL-DAY KITCHEN</button>
+          <button class="menu-tab" data-tab="bakery">ARTISAN BAKERY</button>
+        </div>
+
+        <!-- Tab 1: Specialty Coffee -->
+        <div class="menu-tab-content active" id="tab-coffee">
+          <div class="menu-list">
+            <div class="menu-row reveal">
+              <div class="menu-col-name">
+                <h3 class="item-name">POUR-OVER (SINGLE ORIGIN)</h3>
+                <p class="item-desc">Chikmagalur Red Honey Process. Notes of jasmine, peach nectar, and black tea.</p>
+              </div>
+              <div class="menu-col-meta">
+                <span class="item-tag">FILTER</span>
+                <span class="item-price">₹ 340</span>
+              </div>
+            </div>
+
+            <div class="menu-row reveal">
+              <div class="menu-col-name">
+                <h3 class="item-name">FLAT WHITE — OAT / WHOLE MILK</h3>
+                <p class="item-desc">Double shot house espresso roast, silky microfoam, 65°C pour.</p>
+              </div>
+              <div class="menu-col-meta">
+                <span class="item-tag">ESPRESSO</span>
+                <span class="item-price">₹ 290</span>
+              </div>
+            </div>
+
+            <div class="menu-row reveal">
+              <div class="menu-col-name">
+                <h3 class="item-name">LUNAR COLD BREW</h3>
+                <p class="item-desc">18-hour steeping process with washed Arabica beans. Clean, crisp cocoa finish.</p>
+              </div>
+              <div class="menu-col-meta">
+                <span class="item-tag">CHILLED</span>
+                <span class="item-price">₹ 310</span>
+              </div>
+            </div>
+
+            <div class="menu-row reveal">
+              <div class="menu-col-name">
+                <h3 class="item-name">AFFOGATO DE BASALT</h3>
+                <p class="item-desc">Ristretto espresso poured over house-churned Tahitian vanilla bean gelato.</p>
+              </div>
+              <div class="menu-col-meta">
+                <span class="item-tag">DESSERT BREW</span>
+                <span class="item-price">₹ 360</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 2: Kitchen -->
+        <div class="menu-tab-content" id="tab-kitchen">
+          <div class="menu-list">
+            <div class="menu-row reveal">
+              <div class="menu-col-name">
+                <h3 class="item-name">AVOCADO & POACHED EGG SOURDOUGH</h3>
+                <p class="item-desc">Hass avocado mash, organic poached egg, chili flakes, microgreens on country sourdough.</p>
+              </div>
+              <div class="menu-col-meta">
+                <span class="item-tag">SIGNATURE</span>
+                <span class="item-price">₹ 480</span>
+              </div>
+            </div>
+
+            <div class="menu-row reveal">
+              <div class="menu-col-name">
+                <h3 class="item-name">CHARCOAL BURRATA BOWL</h3>
+                <p class="item-desc">Fresh burrata, heirloom tomatoes, basil pesto oil, aged balsamic glaze & toasted sourdough.</p>
+              </div>
+              <div class="menu-col-meta">
+                <span class="item-tag">SAVORY</span>
+                <span class="item-price">₹ 560</span>
+              </div>
+            </div>
+
+            <div class="menu-row reveal">
+              <div class="menu-col-name">
+                <h3 class="item-name">WILD MUSHROOM TRUFFLE TOAST</h3>
+                <p class="item-desc">Sautéed cremini & oyster mushrooms, black truffle butter, thyme emulsion.</p>
+              </div>
+              <div class="menu-col-meta">
+                <span class="item-tag">VEGETARIAN</span>
+                <span class="item-price">₹ 520</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 3: Bakery -->
+        <div class="menu-tab-content" id="tab-bakery">
+          <div class="menu-list">
+            <div class="menu-row reveal">
+              <div class="menu-col-name">
+                <h3 class="item-name">CLASSIC FRENCH CROISSANT</h3>
+                <p class="item-desc">72-layer laminated butter pastry, baked fresh every morning at 7:00 AM.</p>
+              </div>
+              <div class="menu-col-meta">
+                <span class="item-tag">BAKED DAILY</span>
+                <span class="item-price">₹ 240</span>
+              </div>
+            </div>
+
+            <div class="menu-row reveal">
+              <div class="menu-col-name">
+                <h3 class="item-name">DARK CHOCOLATE PAIN AU CHOCOLAT</h3>
+                <p class="item-desc">Laminated butter dough filled with 70% Valrhona dark chocolate bars.</p>
+              </div>
+              <div class="menu-col-meta">
+                <span class="item-tag">SWEET</span>
+                <span class="item-price">₹ 280</span>
+              </div>
+            </div>
+
+            <div class="menu-row reveal">
+              <div class="menu-col-name">
+                <h3 class="item-name">ALMOND TART & SEA SALT</h3>
+                <p class="item-desc">Frangipane almond filling with flaked almonds and Maldon sea salt flakes.</p>
+              </div>
+              <div class="menu-col-meta">
+                <span class="item-tag">TART</span>
+                <span class="item-price">₹ 310</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: EDITORIAL CULINARY PAIRING -->
+    <section class="section-craft" id="craft">
+      <div class="container">
+        <div class="grid-2col craft-grid">
+          <div class="col-media reveal">
+            <div class="editorial-card">
+              <img src="assets/dish.jpg" alt="Artisanal sourdough toast on black ceramic plate" class="editorial-img">
+              <div class="card-caption">
+                <span class="caption-title">03 / CULINARY DISCIPLINE</span>
+                <span class="caption-sub">AVOCADO & POACHED EGG SOURDOUGH</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-text craft-text-col reveal">
+            <span class="section-tag">03 — PHILOSOPHY</span>
+            <h2 class="section-heading">SIMPLICITY IS THE ULTIMATE SOPHISTICATION.</h2>
+            <p class="body-text">
+              We work with zero frozen pre-mixes. Our bread doughs ferment for 36 hours in temperature-controlled stone lockers. Our eggs are sourced daily from free-range farms in Telangana.
+            </p>
+            <p class="body-text">
+              Every dish on our menu is designed to highlight raw ingredient integrity without drowning flavors in heavy sauces or artificial dressings.
+            </p>
+            
+            <div class="craft-quote">
+              <p class="quote-text">“Architecture is the learned game, correct and magnificent, of forms assembled in the light. So is coffee.”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: VISIT & HOURS (High-Contrast Clean Layout) -->
+    <section class="section-visit" id="visit">
+      <div class="container">
+        <div class="grid-2col visit-grid">
+          <div class="visit-info-col reveal">
+            <span class="section-tag">04 — LOCATION & HOURS</span>
+            <h2 class="section-heading">VISIT THE LOFT</h2>
+            
+            <div class="info-block">
+              <span class="info-label">ADDRESS</span>
+              <p class="info-value">Plot 402, Road No. 36, Jubilee Hills<br>Hyderabad, Telangana 500033</p>
+            </div>
+
+            <div class="info-block">
+              <span class="info-label">HOURS</span>
+              <p class="info-value">MONDAY — THURSDAY: 07:30 AM — 10:30 PM<br>FRIDAY — SUNDAY: 07:30 AM — 11:30 PM</p>
+            </div>
+
+            <div class="info-block">
+              <span class="info-label">CONTACT</span>
+              <p class="info-value">+91 40 8829 1040<br>hello@lunarloft.in</p>
+            </div>
+          </div>
+
+          <div class="visit-reserve-col reveal">
+            <div class="reserve-box">
+              <h3 class="reserve-box-title">TABLE RESERVATIONS</h3>
+              <p class="reserve-box-desc">
+                We reserve 40% of our loft seating for walk-in guests. For guaranteed group dining or quiet coffee tastings, please request a slot below.
+              </p>
+
+              <form class="minimal-form" id="reserveForm" onsubmit="event.preventDefault(); handleReserveSubmit();">
+                <div class="form-group">
+                  <label for="resName" class="form-label">FULL NAME</label>
+                  <input type="text" id="resName" class="form-input" placeholder="e.g. Rahul Sharma" required>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="resDate" class="form-label">DATE</label>
+                    <input type="date" id="resDate" class="form-input" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="resGuests" class="form-label">GUESTS</label>
+                    <select id="resGuests" class="form-input" required>
+                      <option value="1">1 Person</option>
+                      <option value="2" selected>2 People</option>
+                      <option value="4">4 People</option>
+                      <option value="6">6+ People</option>
+                    </select>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn-primary btn-block btn-lg">REQUEST RESERVATION</button>
+                <div class="form-feedback" id="formFeedback"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Minimal Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-logo">LUNAR LOFT</span>
+        <span class="footer-copy">© 2024 LUNAR LOFT CAFÉ & KITCHEN. ALL RIGHTS RESERVED.</span>
+      </div>
+      <div class="footer-right">
+        <a href="https://instagram.com" target="_blank" rel="noopener" class="footer-link">INSTAGRAM</a>
+        <a href="#" class="footer-link">PRESS KIT</a>
+        <a href="#header" class="footer-link">BACK TO TOP ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Reservation Overlay -->
+  <div class="modal-overlay" id="reserveModal">
+    <div class="modal-content">
+      <button class="modal-close" id="closeReserveBtn">&times;</button>
+      <div class="modal-header">
+        <span class="section-tag">LUNAR LOFT</span>
+        <h3 class="modal-title">RESERVE A TABLE</h3>
+        <p class="modal-desc">Select your date and time for an architectural dining experience.</p>
+      </div>
+      <form class="minimal-form" onsubmit="event.preventDefault(); handleModalSubmit();">
+        <div class="form-group">
+          <label class="form-label">FULL NAME</label>
+          <input type="text" class="form-input" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">PHONE NUMBER</label>
+          <input type="tel" class="form-input" placeholder="+91 98765 43210" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">DATE</label>
+            <input type="date" class="form-input" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">TIME SLOT</label>
+            <select class="form-input" required>
+              <option>09:00 AM — Morning Coffee</option>
+              <option>01:00 PM — Lunch</option>
+              <option>05:00 PM — Evening Brew</option>
+              <option>08:00 PM — Dinner</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn-primary btn-block btn-lg">CONFIRM BOOKING</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
